@@ -23,8 +23,16 @@ g++ deadlock_simulation.cpp -o deadlock_simulation -pthread
 
 ## For deadlock prevention
 ```bash
-g++ deadlock_prevention.cpp -o deadlock_prevention
+g++ deadlock_prevention.cpp -o deadlock_prevention -pthread
 ```
 ```bash
 ./deadlock_prevention
+```
+
+## For deadlock avoidance
+```bash
+g++ deadlock_avoidance.cpp -o deadlock_avoidance -pthread
+```
+```bash
+./deadlock_avoidance
 ```

@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    vector<int>resources={3,3,2};
+    vector<int>resources={10,5,7};
 
     vector<vector<int>>max={
         {7,5,3},   
@@ -77,7 +77,7 @@ int main(){
     }
 
     if(count==n){
-        cout<<"System is safe/n Safe sequence is"<<endl;
+        cout<<"System is safe\nSafe sequence is"<<endl;
         for(int i:safeSeq){
             cout<<"P"<<i<<" ";
         }
