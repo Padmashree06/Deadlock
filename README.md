@@ -36,3 +36,16 @@ g++ deadlock_avoidance.cpp -o deadlock_avoidance -pthread
 ```bash
 ./deadlock_avoidance
 ```
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](https://github.com/Padmashree06/Deadlock/blob/main/CONTRIBUTING.md) for details.
+
+    Fork the repository
+    Create your feature branch
+    Commit your changes
+    Push to the branch
+    Create a Pull Request
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Padmashree06/Deadlock/blob/main/LICENSE)
+ file for details.
